@@ -14,28 +14,15 @@ a:hover{
     background-color: #1E794D; 
 }
 .forum-content {
-    width:500px;
+    width:60%;
     height:auto;
     padding:5px 10px;
     font-size:13px;
     margin: 0 auto;
 }
-#mainDiv{
-     /*background-image: url("../images/samplejpg") !important;*/
+/*#mainDiv{
+     background-image: url("../images/samplejpg") !important;
      overflow: hidden;
-}
-/*Hrushi
-.media{
-    display: block;
-    overflow: hidden;
-}*/
-/*.profile_pic{
-    float: left;
-    display: block;
-}*/
-/*.pstyle{
-    display: block;
-    overflow: hidden;
 }*/
 .media{
     display: block;
@@ -170,7 +157,7 @@ p .show{
           width: 4px;
           height: 4px;
           /*margin-top: -6px;*/
-
+ 
           background: rgba(0, 0, 0, 0);
           border: 3px solid #FFF;
           /*border-top: none;*/
