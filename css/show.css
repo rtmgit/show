@@ -102,95 +102,95 @@ p .show{
 
 
 .button
-        {
-          text-transform: uppercase;
-          letter-spacing: 0.5px;
-          text-align: center;
-          /*color: #0C5;*/
+{
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  /*color: #0C5;*/
 
-          font-size: 9px;
-          font-family: "Nunito", sans-serif;
-          font-weight: bolder;
-          
-          /*margin: 5em auto;*/
-          
-          /*position: absolute; */
-          top:0; right:0; bottom:0; left:0;
-          
-          padding: 3px 5px;
-          /*width: 220px;*/
-          /*height:30px;*/
+  font-size: 9px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  
+  /*margin: 5em auto;*/
+  
+  /*position: absolute; */
+  top:0; right:0; bottom:0; left:0;
+  
+  padding: 3px 5px;
+  /*width: 220px;*/
+  /*height:30px;*/
 
-          background: rgb(75, 100, 153);
-          border: 1px solid rgb(75, 100, 153);
-          color: #FFF;
-          overflow: hidden;
-          display: block;
-          
-          transition: all 0.5s;
-        }
+  background: rgb(75, 100, 153);
+  border: 1px solid rgb(75, 100, 153);
+  color: #FFF;
+  overflow: hidden;
+  display: block;
+  
+  transition: all 0.5s;
+}
 
-        .button:hover, .button:active 
-        {
-          text-decoration: none;
-          color: rgb(75, 100, 153);
-          border-color: rgb(75, 100, 153);
-          background: #FFF;
-        }
+.button:hover, .button:active 
+{
+  text-decoration: none;
+  color: rgb(75, 100, 153);
+  border-color: rgb(75, 100, 153);
+  background: #FFF;
+}
 
-        .button span 
-        {
-          display: inline-block;
-          position: relative;
-          padding-right: 0;
-          
-          transition: padding-right 0.5s;
-        }
+.button span 
+{
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  
+  transition: padding-right 0.5s;
+}
 
-        .button span:after 
-        {
-          content: ' ';  
-          position: absolute;
-          top: 0;
-          right: -18px;
-          opacity: 0;
-          width: 4px;
-          height: 4px;
-          /*margin-top: -6px;*/
- 
-          background: rgba(0, 0, 0, 0);
-          border: 3px solid #FFF;
-          /*border-top: none;*/
-          /*border-right: none;*/
+.button span:after 
+{
+  content: ' ';  
+  position: absolute;
+  top: 0;
+  right: -18px;
+  opacity: 0;
+  width: 4px;
+  height: 4px;
+  /*margin-top: -6px;*/
 
-          transition: opacity 0.5s, top 0.5s, right 0.5s;
-          transform: rotate(-45deg);
-        }
-        .button span[class="upArrow"]:after{
-          border-bottom: none;
-          border-left: none;
-          
-          margin-top: -3px;
-        }
-        .button span[class="downArrow"]:after{
-          border-top: none;
-          border-right: none;
-          margin-top: -6px;
-        }
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #FFF;
+  /*border-top: none;*/
+  /*border-right: none;*/
 
-        .button:hover span, .button:active span 
-        {
-          padding-right: 15px;
-        }
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+}
+.button span[class="upArrow"]:after{
+  border-bottom: none;
+  border-left: none;
+  
+  margin-top: -3px;
+}
+.button span[class="downArrow"]:after{
+  border-top: none;
+  border-right: none;
+  margin-top: -6px;
+}
 
-        .button:hover span:after, .button:active span:after 
-        {
-          transition: opacity 0.5s, top 0.5s, right 0.5s;
-          opacity: 1;
-          border-color: rgb(75, 100, 153);
-          right: 0;
-          top: 50%;
-        }
+.button:hover span, .button:active span 
+{
+  padding-right: 15px;
+}
+
+.button:hover span:after, .button:active span:after 
+{
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: rgb(75, 100, 153);
+  right: 0;
+  top: 50%;
+}
 
 @media screen and (max-width:767px) {
     .forum-content {
