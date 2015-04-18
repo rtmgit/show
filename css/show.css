@@ -194,7 +194,7 @@ p .show{
 
 @media screen and (max-width:767px) {
     .forum-content {
-        width:90%;
+        width:95%;
         /*height:auto;*/
         padding:2px 5px;
         font-size:12px;
