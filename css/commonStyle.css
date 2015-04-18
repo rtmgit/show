@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#mainDiv{
+	margin: 0 auto;
+	width: 100%;
+	background: rgb(230, 236, 242);
+	background-size: 100%;
+	text-align: :center;
+}		
+#mainDiv h1 span{
+	font-size: 200%;
+	color: white;
+	
+}
+#mainDiv h1{
+	background-color: rgb(75, 100, 153);
+	text-align: center;
+	margin:0;
+}
+.brand{
+	min-height: 90px;
+	line-height: 90px;
+	display: block;
+}
+#mainDiv .footer{
+		font-size: 80%;
+		color: white;
+		background-color: rgb(75, 100, 153);
+		text-align: center;
+		min-height: 40px;
+		line-height: 40px;
+		display: block;
+}
+
+@media screen and (max-width:767px) {
+	#mainDiv h1{
+		/*height: 40px;*/
+		padding: 10px 2px;
+	}
+	#mainDiv h1 span{
+		font-size: 75%;
+
+	}
+	.brand{
+		min-height: 50px;
+		line-height: 50px;
+	}
+}	

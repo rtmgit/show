@@ -1,0 +1,220 @@
+a, a:visited {
+    text-decoration:none;
+    color: white;
+    font-weight:400;
+    display: inline-block;
+    float: right;
+    margin: 2px 2px;
+    padding: 0 4px;
+    border: 1px solid #1CBB62;
+    background-color: #1CBB62;
+    border-radius: 3px;
+}
+a:hover{
+    background-color: #1E794D; 
+}
+.forum-content {
+    width:500px;
+    height:auto;
+    padding:5px 10px;
+    font-size:13px;
+    margin: 0 auto;
+}
+#mainDiv{
+     background-image: url("../images/samplejpg") !important;
+     overflow: hidden;
+}
+/*Hrushi
+.media{
+    display: block;
+    overflow: hidden;
+}*/
+/*.profile_pic{
+    float: left;
+    display: block;
+}*/
+/*.pstyle{
+    display: block;
+    overflow: hidden;
+}*/
+.media{
+    display: block;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.pstyle{
+    display: block;
+    overflow: hidden;
+}
+.personName{
+    text-align: inherit;
+    display: inherit;
+    margin: 0px 15px;
+    padding: 2px;
+    color: rgba(2, 89, 245, 0.51);
+    font-size: medium;
+
+}
+.comments-space {
+    width:100%;
+    min-height:90px;
+    height:auto;
+    border-radius:5px;
+    background:#f0f0f0;
+    margin:4px auto;
+    display: inline-block;
+    /*margin: 4px;*/
+    padding: 6px 5px;
+    /*text-align: justify;*/
+}
+
+/*.comments-space .button{
+    float: right;
+    display: inline-block;
+    background-color: rgb(94, 209, 65);
+
+}*/
+
+
+/*.remaining-content span {
+    display:none;
+}
+.remaining-content span:after{
+    content:"\a";
+    white-space: pre;
+}*/
+
+/*.comments-space a.button:after{
+    content:"\a";
+    white-space: pre;
+}*/
+.comments-space .profile_pic{
+    width: 80px;
+    height: 85px;
+    /*margin: 2px 0px;*/
+    
+    margin-top: 2px;
+    padding: 0px 5px;
+    padding-bottom: auto;
+    display: inline;
+    float: left;
+    border-radius: 50px;
+}
+
+p{
+    /*display: block;*/
+    margin: 0px;
+    text-indent : 30px;
+}
+p .hide{
+    display: none;
+}
+p .show{
+    display: inline;
+}
+
+
+.button
+        {
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          text-align: center;
+          /*color: #0C5;*/
+
+          font-size: 9px;
+          font-family: "Nunito", sans-serif;
+          font-weight: bolder;
+          
+          /*margin: 5em auto;*/
+          
+          /*position: absolute; */
+          top:0; right:0; bottom:0; left:0;
+          
+          padding: 3px 5px;
+          /*width: 220px;*/
+          /*height:30px;*/
+
+          background: rgb(75, 100, 153);
+          border: 1px solid rgb(75, 100, 153);
+          color: #FFF;
+          overflow: hidden;
+          display: block;
+          
+          transition: all 0.5s;
+        }
+
+        .button:hover, .button:active 
+        {
+          text-decoration: none;
+          color: rgb(75, 100, 153);
+          border-color: rgb(75, 100, 153);
+          background: #FFF;
+        }
+
+        .button span 
+        {
+          display: inline-block;
+          position: relative;
+          padding-right: 0;
+          
+          transition: padding-right 0.5s;
+        }
+
+        .button span:after 
+        {
+          content: ' ';  
+          position: absolute;
+          top: 0;
+          right: -18px;
+          opacity: 0;
+          width: 4px;
+          height: 4px;
+          /*margin-top: -6px;*/
+
+          background: rgba(0, 0, 0, 0);
+          border: 3px solid #FFF;
+          /*border-top: none;*/
+          /*border-right: none;*/
+
+          transition: opacity 0.5s, top 0.5s, right 0.5s;
+          transform: rotate(-45deg);
+        }
+        .button span[class="upArrow"]:after{
+          border-bottom: none;
+          border-left: none;
+          
+          margin-top: -3px;
+        }
+        .button span[class="downArrow"]:after{
+          border-top: none;
+          border-right: none;
+          margin-top: -6px;
+        }
+
+        .button:hover span, .button:active span 
+        {
+          padding-right: 15px;
+        }
+
+        .button:hover span:after, .button:active span:after 
+        {
+          transition: opacity 0.5s, top 0.5s, right 0.5s;
+          opacity: 1;
+          border-color: rgb(75, 100, 153);
+          right: 0;
+          top: 50%;
+        }
+
+@media screen and (max-width:767px) {
+    .forum-content {
+        width:90%;
+        /*height:auto;*/
+        padding:2px 5px;
+        font-size:12px;
+        /*margin: 0 auto;*/
+    }
+    .comments-space .profile_pic{
+        width:50px;
+        height: 55px;
+    }
+}
